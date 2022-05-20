@@ -1,0 +1,41 @@
+
+.acchat {
+    outline: none;
+    border: none;
+    background: gray;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+}
+
+.recharge {
+    outline: none;
+    border: none;
+    background: white;
+    color: gray;
+    font-size: 18px;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+}
+
+.history_separator {
+    height: 100%;
+    width: 1px;
+    margin: 0px 15px;
+    background: white;
+}
+
+.achat_history_item {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.history_data {
+    margin: 0px 50px 50px 50px;
+    border-left: 1px solid white;
+    padding: 0px 0px 0px 50px;
+}

@@ -1,0 +1,56 @@
+.menu_item {
+    background-color: white;
+    color: black;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.admin_board {
+    height: 100vh;
+}
+
+.title_item {
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.carousel_items {
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.image_item {}
+
+.image_item img {
+
+    height: 100px;
+    width: 100%;
+
+}
+
+.ant-upload.ant-upload-drag .ant-upload {
+    padding: 0px !important;
+}
+
+/* products */
+
+.products {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.news {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+}

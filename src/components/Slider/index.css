@@ -1,0 +1,28 @@
+.Slider {
+    margin-top: 20px;
+}
+
+.slider_item img {
+    width: 100%;
+    border-radius: 50px;
+    padding: 0px 5px;
+    height: 250px;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.dot {
+    margin: 0px 5px;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.active_dot {
+    background-color: white;
+}

@@ -1,0 +1,48 @@
+.app_logo {
+    height: 100px;
+}
+
+.app_navbar {
+    padding: 20px 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+
+}
+.nav_item span {
+    color: white;
+    font-size: 20px;
+    margin: 0px 15px;
+    cursor: pointer;
+}
+.separator {
+    width: 2px;
+    background-color: white;
+    height: 20px;
+}
+
+.la-bars {
+    display: none;
+}
+
+@media screen and (max-width : 600px) {
+    .app_logo {
+        height: 50px !important;
+        width: 50px !important;
+    }
+    .nav_menu {
+        display: none;
+    }
+
+    .la-bars {
+        display: contents;
+        font-size: 35px;
+        color: white;
+        font-weight: bold;
+    }
+}

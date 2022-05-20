@@ -1,0 +1,36 @@
+.footer_navigation_client {
+    margin: 0px 70px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0px;
+}
+
+.navigation_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navigation_item i {
+    font-size: 23px;
+}
+
+.navigation_item span {
+    color: var(--pcolor);
+    font-size: 12px;
+}
+
+.active  i {
+    color: var(--pcolor);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .footer_navigation_client {
+        margin: 0px 15px;
+    }
+  }

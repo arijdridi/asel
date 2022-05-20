@@ -1,0 +1,33 @@
+.client_navbar {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.client_navbar div {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.la-user-alt {
+    color: #00306D;
+    font-size: 25px;
+}
+
+.client_navbar_brand {
+    display: flex;
+    justify-content: center;
+}
+
+.client_navbar_brand img {
+    height: 100px;
+    width: 100px;
+    margin-top: -50px;
+}

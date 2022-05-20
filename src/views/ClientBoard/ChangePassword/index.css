@@ -1,0 +1,105 @@
+.changepass {
+    background-color: var(--pcolor);
+    height: 100vh;
+    padding: 50px;
+}
+
+.la-arrow-alt-circle-left {
+    color: white;
+    font-size: 30px;
+}
+
+.avatar_section {
+    display: flex;
+    justify-content: center;
+}
+
+.avatar {
+    background: white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+
+}
+
+.user_logo {
+    position: absolute;
+    color: var(--pcolor);
+    font-size: 50px;
+}
+
+.pen {
+    position: absolute;
+    background: gray;
+    padding: 3px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    top: 0;
+    left: 75%;
+    
+}
+
+.la-pen {
+    color: white;
+    margin-left: 5px;
+}
+.gray_input {
+    display: flex;
+    flex-direction: column;
+}
+.gray_input  span {
+color: white;
+font-size: 15px;
+margin-left: 3px;
+margin-bottom: 7px;
+}
+.gray_input input {
+    background-color: gray;
+    border-radius: 10px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+
+.white_input {
+    display: flex;
+    flex-direction: column;
+}
+.white_input  span {
+    color: white;
+    font-size: 15px;
+    margin-left: 3px;
+    margin-bottom: 7px;
+    }
+
+    .white_input input {
+        background-color: white;
+        border-radius: 10px;
+        height: 40px;
+        outline: none;
+        border: none;
+    }
+
+    .disconnect{
+        background: rgb(241, 79, 58);
+        color: white;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+    .change_pass_button{
+        background: rgb(226, 226, 50);
+        color: white;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }

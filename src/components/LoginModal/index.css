@@ -1,0 +1,14 @@
+.ant-modal-content {
+    border-radius: 10px !important;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.la-user-lock {
+    font-size: 70px;
+}

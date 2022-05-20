@@ -1,0 +1,15 @@
+.client_layout {
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 40px 20px;
+}
+
+
+.client_main {
+    overflow-y: scroll;
+    margin: 15px 0px;
+    height: 100%;
+}

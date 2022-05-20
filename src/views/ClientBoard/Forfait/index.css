@@ -1,0 +1,79 @@
+.forfait_item {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    align-items: center;
+    border-radius: 10px;
+padding: 10px 25px;
+cursor: pointer;
+}
+
+.forfait_body {
+    margin: 0px 70px;
+}
+
+.forfait_name {
+    color: var(--pcolor);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.icons_forfait i {
+    color: var(--pcolor);
+
+    font-size: 20px;
+}
+
+
+.bundle {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 15px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.bundle_title {
+    color: var(--pcolor);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bundle_options {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+
+.bundle button {
+    background: #013f8f ;  
+    width: 100%;
+    color: white;
+    height: 30px; 
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.yes_button {
+    background: #013f8f ;  
+padding: 15px 30px;
+    color: white;
+  
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+@media screen and(max-width : 700px) {
+    .forfait_body {
+        margin: 0px 15px !important;
+    }
+}
+
+

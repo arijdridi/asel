@@ -1,0 +1,27 @@
+.slider_item {
+    
+}
+
+.slider_item_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin-bottom: -10px;
+ align-items: center;
+}
+
+.prix_total {
+    background: white;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.prix_total_prix {
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--pcolor);
+}
