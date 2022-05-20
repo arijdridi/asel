@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux"
 import { setBecomeClientModal, setVerificationCodeData } from "../../features/authentication/authenticationSlice"
 import { Form, Input, Button, Modal, Alert } from 'antd';
 import { PhoneOutlined } from '@ant-design/icons';
-import axios from '../../config/axios'
+import axios from 'axios'
 import { useState } from "react";
 export default () => {
 
@@ -17,7 +17,7 @@ export default () => {
             phone: values.phone
         }
 
-        axios.post('user/register', data)
+        axios.post('https://selfcareasel.cayoncloud/user/register', data)
             .then(res => {
                 console.log(res);
                 if (res.status === 200) {

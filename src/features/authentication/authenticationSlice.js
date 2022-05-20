@@ -21,8 +21,8 @@ const initialState = {
         msg: ''
     },
     authedClientData: {
-        isauth: False,
-        role: 'client'
+        isauth: false,
+        role: ''
     }
 }
 
